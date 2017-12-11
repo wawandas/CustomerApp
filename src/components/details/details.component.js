@@ -13,10 +13,7 @@ export const DetailsComponent = {
 		}
 
 		save() {
-			console.log(this.CustomerService.getCustomers());
-			console.log(this.currentCustomer);
 			this.letEdit();
-			console.log('saved')
 		}
 	}
 }

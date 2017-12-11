@@ -25,7 +25,7 @@ class CustomerService {
 
     getCustomerById(id) {
         id = parseInt(id);
-        //debugger;
+
         return this.customerData.find(e => id === e.customerID);
     }
 
