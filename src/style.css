@@ -6,7 +6,7 @@
 }
 
 .container {
-	max-width: 800px;
+	max-width: 600px;
 	margin-top: 30px;
 }
 
@@ -16,10 +16,20 @@
     border-color: #0275d8;
 }
 
+.btn-primary:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
 .glyphicon:hover {
 	cursor: pointer;
 }
 
 .not-active {
 	color: #ccc;
+}
+
+.profile-avatar {
+    width: 50px;
 }

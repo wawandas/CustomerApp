@@ -20,7 +20,7 @@ export const AddCustomerComponent = {
 					"last": ""
 				},
 				"birthday": "",
-				"gender": "",
+				"gender": "m",
 				"lastContact": "",
 				"customerLifetimeValue": 0
 			};
