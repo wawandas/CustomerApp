@@ -1,0 +1,25 @@
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.container {
+	max-width: 800px;
+	margin-top: 30px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #0275d8;
+    border-color: #0275d8;
+}
+
+.glyphicon:hover {
+	cursor: pointer;
+}
+
+.not-active {
+	color: #ccc;
+}

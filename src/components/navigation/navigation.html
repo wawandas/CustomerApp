@@ -1,0 +1,11 @@
+<nav aria-label="breadcrumb" role="navigation">
+	<ol class="breadcrumb">
+		<li class="breadcrumb-item">
+			<a href="/overview" ng-if="$ctrl.isDetails">Overview</a>
+			<span ng-if="$ctrl.isOverview">Overview</span>
+		</li>
+		<li class="breadcrumb-item">
+			<span ng-class="{'not-active': $ctrl.isOverview}">Details</span>
+		</li>
+	</ol>
+</nav>

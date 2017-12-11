@@ -1,0 +1,35 @@
+<div class="container">
+	<navigation-component></navigation-component>
+	<div class="twt-wrapper">
+		<div class="panel panel-info">
+			<div class="panel-heading">
+				Details of
+			</div>
+			<div class="panel-body">
+				<br>
+				<div class="clearfix"></div>
+				<form>
+					<div class="form-group">
+						<label for="">First Name:</label>
+						<input type="text" ng-model="$ctrl.currentCustomer.name.first" ng-disabled="$ctrl.editMode" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="">Last Name:</label>
+						<input type="text" ng-model="$ctrl.currentCustomer.name.last" ng-disabled="$ctrl.editMode" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="">Birthday:</label>
+						<input type="text" ng-model="$ctrl.currentCustomer.birthday" ng-disabled="$ctrl.editMode" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="">Gender:</label>
+						<input type="text" ng-model="$ctrl.currentCustomer.gender" ng-disabled="$ctrl.editMode" class="form-control">
+					</div>
+					<button ng-click="$ctrl.letEdit()" ng-if="($ctrl.editMode === true)">Edit</button>
+					<button ng-click="$ctrl.save()" ng-if="($ctrl.editMode === false)">Save</button>
+				</form>
+				<hr>
+			</div>
+		</div>
+	</div>
+</div>
